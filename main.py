@@ -10,6 +10,7 @@ def calculate(a, b, c):
     x1 = complex((- b + math.sqrt(discriminant)) / (2 * a))
     x2 = complex((- b - math.sqrt(discriminant)) / (2 * a))
     return x1, x2
+
     """Calculate is a function created by keyword 'def' to solve the given variables which are of type 'float'.
     Parameters are taken of type 'float'
     Return is of the type 'float'
